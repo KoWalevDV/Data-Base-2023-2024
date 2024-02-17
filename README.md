@@ -4,8 +4,6 @@ Here is all the information about my database, which has been developed since 20
 The presented database was developed during the third year of study.
 The development was carried out using Postgresql and in my opinion was successful.
 The purpose of the work was to create a functioning database telling about the organization of excursions for students.
-## The project has implemented:
-
 # Task Topic
 School trips: type (entertainment /educational), disciplines to which the educational excursion is related, cost per person, list of participants, teacher responsible for conducting.
 ## Implemented requests:
