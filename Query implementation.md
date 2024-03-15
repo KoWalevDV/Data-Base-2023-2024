@@ -11,13 +11,13 @@ School trips: type (entertainment /educational), disciplines to which the educat
 # Table of estimated query results
 | **Request text** | **Data that meets the query conditions** | **Data that does not meet the query conditions** |
 |:-:|:-:|:-:|
-|Excursions to the shipyard (the word "shipyard" anywhere in the name)|excursion_name: Реки и каналы Санкт-Петербурга(верфь)|excursion_name: Эрмитаж|
-|Excursions related to biology and geography|excursion_name: Зоологический Музей |excursion_name: Эрмитаж|
-|Teachers not responsible for excursions|  |  |
-|Students, who did not go to the Museum of the History of religion, but went to the Hermitage|  |  |
-|The teacher who was responsible for the number of excursions above the average|  |  |
-|The teachers responsible for the most expensive excursions|  |  |
-|Excursions that all students went to|  |  |
+|Excursions to the shipyard (the word "shipyard" anywhere in the name)|excursion_name:<br> Реки и каналы Санкт-Петербурга(верфь)|excursion_name:<br>Эрмитаж|
+|Excursions related to biology and geography|excursion_name:<br>Зоологический Музей |excursion_name:<br>Эрмитаж|
+|Teachers not responsible for excursions|Teacher:<br>Иван Крыжовников|Teacher:<br>Анастасия Юничева|
+|Students, who did not go to the Museum of the History of religion, but went to the Hermitage|Student:<br>Владимир Попов<br>Дарья Дятлова<br>СергейМухин<br>Алексей Иванов<br>Любовь Сергеева<br>Максим Мухин<br>|Student:<br>Наталья Колокольцева|
+|The teacher who was responsible for the number of excursions above the average|Teacher:<br>Анастасия Юничева|Teacher:<br>Иван Крыжовников|
+|The teachers responsible for the most expensive excursions|Teacher:<br>Татьяна Иванова|Teacher:<br>Илья Плескунин|
+|Excursions that all students went to|excursion_name:<br>Зоологический музей|excursion_name:<br>Эрмитаж и все остальные экскурсии|
 
 
 ## 1)Excursions to the shipyard (the word "shipyard" anywhere in the name)
