@@ -9,12 +9,15 @@ School trips: type (entertainment /educational), disciplines to which the educat
 - the teachers responsible for the most expensive excursions
 - Excursions that all students went to
 # Table of estimated query results
-|**Request text**|**Data that meets the query conditions**|**Data that does not meet the query conditions**|
-|excursions to the shipyard (the word "shipyard" anywhere in the name)|excursion_name (Название экскурсии)
-Реки и каналы Санкт-Петербурга(верфь)|excursion_name (Название экскурсии)
-Эрмитаж
-Все остальные экскурсии|
-
+| **Request text** | **Data that meets the query conditions** | **Data that does not meet the query conditions** |
+|:-:|:-:|:-:|
+|Excursions to the shipyard (the word "shipyard" anywhere in the name)|excursion_name: Реки и каналы Санкт-Петербурга(верфь)|excursion_name: Эрмитаж|
+|Excursions related to biology and geography|excursion_name: Зоологический Музей |excursion_name: Эрмитаж|
+|Teachers not responsible for excursions|  |  |
+|Students, who did not go to the Museum of the History of religion, but went to the Hermitage|  |  |
+|The teacher who was responsible for the number of excursions above the average|  |  |
+|The teachers responsible for the most expensive excursions|  |  |
+|Excursions that all students went to|  |  |
 
 
 ## 1)Excursions to the shipyard (the word "shipyard" anywhere in the name)
