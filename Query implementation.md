@@ -9,7 +9,13 @@ School trips: type (entertainment /educational), disciplines to which the educat
 - the teachers responsible for the most expensive excursions
 - Excursions that all students went to
 # Table of estimated query results
-|Request text|Data that meets the query conditions|Data that does not meet the query conditions|
+|**Request text**|**Data that meets the query conditions**|**Data that does not meet the query conditions**|
+|excursions to the shipyard (the word "shipyard" anywhere in the name)|excursion_name (Название экскурсии)
+Реки и каналы Санкт-Петербурга(верфь)|excursion_name (Название экскурсии)
+Эрмитаж
+Все остальные экскурсии|
+
+
 
 ## 1)Excursions to the shipyard (the word "shipyard" anywhere in the name)
 ```SQL
