@@ -183,3 +183,5 @@ HAVING COUNT(DISTINCT s.student_id) = (SELECT COUNT(*) FROM student);
 ```
 ### Output
 ![image](https://github.com/KoWalevDV/Data-Base-2023-2024/assets/127125663/44dd4329-b8bc-4943-890f-3fc6e5917732)
+
+# Queries are ready :unlock:, stored procedures and triggers remain ahead :closed_lock_with_key:
